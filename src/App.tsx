@@ -3,6 +3,7 @@ import { Greet } from './components/Greet';
 import { Button } from './components/Button';
 import { LoggedIn } from './components/LoggedIn';
 import { Box } from './components/context/Box';
+import { DomRef } from './components/ref/DomRef';
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,8 @@ function App() {
       <LoggedIn />
       <br />
       <Box/>
+      <br />
+      <DomRef/>
     </div>
   );
 }
