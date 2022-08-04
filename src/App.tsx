@@ -2,6 +2,7 @@ import './App.css';
 import { Greet } from './components/Greet';
 import { Button } from './components/Button';
 import { LoggedIn } from './components/LoggedIn';
+import { Box } from './components/context/Box';
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,8 @@ function App() {
         console.log('Button Clicked!', event);
       }} />
       <LoggedIn />
+      <br />
+      <Box/>
     </div>
   );
 }
